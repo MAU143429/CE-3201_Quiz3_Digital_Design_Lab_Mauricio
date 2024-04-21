@@ -1,0 +1,44 @@
+module FSM (
+    input logic clk,rst,next,
+    output logic waiting_for_user, start_verification,done
+);
+
+    logic [3:0] state, next_state;
+    logic prev_next;
+
+
+    always_ff @(posedge clk, posedge rst) begin
+        if (rst) begin
+            prev_next <= 1'b0;
+        end else begin
+            prev_next <= next;
+        end
+    end
+
+    always_ff @(posedge clk, posedge rst) begin
+        if (rst) begin
+            state <= 2'b00;
+        end else begin
+            state <= next_state;
+        end
+    end
+
+    always_comb begin
+        next_state = state;
+        case (state)
+            0: if (next && !prev_next) next_state = 1; else next_state = 0;
+            1: if (allSpawn) next_state = 6; else if (positioned_one) next_state = 5;
+            2: if (player_done) next_state = 3; else next_state = 6;
+            3: if (cpu_done) next_state = 6; else next_state = 3;
+            4: next_state = 4;
+            5: if (next && !prev_next) next_state = 1; else next_state = 5;
+				6: if (next && !prev_next) next_state = 2; else if (time_out) next_state = 3; else if (player_won | cpu_won) next_state = 4; else next_state = 6;
+            default: next_state = 0;
+        endcase
+    end
+
+    assign waiting_for_user = (state == 0);
+    assign start_verification = (state == 1);
+    assign done = (state == 2);
+
+endmodule

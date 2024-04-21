@@ -1,0 +1,75 @@
+|top_module
+clk => FSM:ME.clk
+clk => logic_module:LM.clk
+rst => FSM:ME.rst
+rst => logic_module:LM.rst
+btn1 => logic_module:LM.btn1
+btn2 => logic_module:LM.btn2
+btn3 => FSM:ME.next
+led << FSM:ME.done
+last4Digits[0] << logic_module:LM.last4Digits[0]
+last4Digits[1] << logic_module:LM.last4Digits[1]
+last4Digits[2] << logic_module:LM.last4Digits[2]
+last4Digits[3] << logic_module:LM.last4Digits[3]
+
+
+|top_module|FSM:ME
+clk => state~1.DATAIN
+rst => state~3.DATAIN
+next => Selector0.IN2
+next => next_state.00.DATAB
+finalAnalysis => Selector1.IN2
+finalAnalysis => Selector0.IN1
+waiting_for_user <= waiting_for_user.DB_MAX_OUTPUT_PORT_TYPE
+start_verification <= start_verification.DB_MAX_OUTPUT_PORT_TYPE
+done <= done.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|top_module|logic_module:LM
+clk => ~NO_FANOUT~
+rst => rst.IN4
+btn1 => btnvalue.IN1
+btn2 => internalClk.IN0
+waiting_for_user => waiting_for_user.IN4
+start_verification => totalZeros[2].LATCH_ENABLE
+start_verification => totalZeros[1].LATCH_ENABLE
+start_verification => totalZeros[0].LATCH_ENABLE
+finalAnalysis <= LessThan0.DB_MAX_OUTPUT_PORT_TYPE
+last4Digits[0] <= last4Digits[0].DB_MAX_OUTPUT_PORT_TYPE
+last4Digits[1] <= last4Digits[1].DB_MAX_OUTPUT_PORT_TYPE
+last4Digits[2] <= last4Digits[2].DB_MAX_OUTPUT_PORT_TYPE
+last4Digits[3] <= d_flip_flop:Flipflop4.q
+
+
+|top_module|logic_module:LM|d_flip_flop:Flipflop1
+clk => q~reg0.CLK
+rst => q~reg0.ACLR
+en => q~reg0.ENA
+d => q~reg0.DATAIN
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|top_module|logic_module:LM|d_flip_flop:Flipflop2
+clk => q~reg0.CLK
+rst => q~reg0.ACLR
+en => q~reg0.ENA
+d => q~reg0.DATAIN
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|top_module|logic_module:LM|d_flip_flop:Flipflop3
+clk => q~reg0.CLK
+rst => q~reg0.ACLR
+en => q~reg0.ENA
+d => q~reg0.DATAIN
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|top_module|logic_module:LM|d_flip_flop:Flipflop4
+clk => q~reg0.CLK
+rst => q~reg0.ACLR
+en => q~reg0.ENA
+d => q~reg0.DATAIN
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+

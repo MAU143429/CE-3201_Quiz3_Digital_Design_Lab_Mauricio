@@ -1,0 +1,13 @@
+module d_flip_flop (
+    input logic btn1,    
+    input logic btn2,
+	 input logic btn3,	 
+    input logic rst,      
+    output logic led      
+);
+
+
+
+
+
+endmodule

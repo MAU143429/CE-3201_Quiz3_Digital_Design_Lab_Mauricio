@@ -1,0 +1,142 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/mau14/OneDrive/Escritorio/TDD Repositorio/Quiz3/CE-3201_Quiz3_Digital_Design_Lab_Mauricio/simulation/modelsim
+vd_flip_flop
+Z1 DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
+Z2 !s110 1713716312
+!i10b 1
+!s100 ;GL;MO8;MEl;hZN=4f]Gd0
+Z3 !s11b Dg1SIo80bB@j0V0VzS_@n1
+Il>inFghcjC_I>^CCMoG3l2
+Z4 VDg1SIo80bB@j0V0VzS_@n1
+S1
+R0
+w1713652209
+8C:/Users/mau14/OneDrive/Escritorio/TDD Repositorio/Quiz3/CE-3201_Quiz3_Digital_Design_Lab_Mauricio/d_flip_flop.sv
+FC:/Users/mau14/OneDrive/Escritorio/TDD Repositorio/Quiz3/CE-3201_Quiz3_Digital_Design_Lab_Mauricio/d_flip_flop.sv
+!i122 0
+L0 1 17
+Z5 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z6 !s108 1713716312.000000
+!s107 C:/Users/mau14/OneDrive/Escritorio/TDD Repositorio/Quiz3/CE-3201_Quiz3_Digital_Design_Lab_Mauricio/d_flip_flop.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/mau14/OneDrive/Escritorio/TDD Repositorio/Quiz3/CE-3201_Quiz3_Digital_Design_Lab_Mauricio|C:/Users/mau14/OneDrive/Escritorio/TDD Repositorio/Quiz3/CE-3201_Quiz3_Digital_Design_Lab_Mauricio/d_flip_flop.sv|
+!i113 1
+Z7 o-sv -work work
+Z8 !s92 -sv -work work {+incdir+C:/Users/mau14/OneDrive/Escritorio/TDD Repositorio/Quiz3/CE-3201_Quiz3_Digital_Design_Lab_Mauricio}
+Z9 tCvgOpt 0
+vFSM
+R1
+Z10 !s110 1713716313
+!i10b 1
+!s100 fd@zkndCZ@5YLfo=SYn[50
+R3
+IBSGlCa_oT[VGGzLfCKM661
+R4
+S1
+R0
+w1713715003
+8C:/Users/mau14/OneDrive/Escritorio/TDD Repositorio/Quiz3/CE-3201_Quiz3_Digital_Design_Lab_Mauricio/FSM.sv
+FC:/Users/mau14/OneDrive/Escritorio/TDD Repositorio/Quiz3/CE-3201_Quiz3_Digital_Design_Lab_Mauricio/FSM.sv
+!i122 2
+L0 1 33
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/Users/mau14/OneDrive/Escritorio/TDD Repositorio/Quiz3/CE-3201_Quiz3_Digital_Design_Lab_Mauricio/FSM.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/mau14/OneDrive/Escritorio/TDD Repositorio/Quiz3/CE-3201_Quiz3_Digital_Design_Lab_Mauricio|C:/Users/mau14/OneDrive/Escritorio/TDD Repositorio/Quiz3/CE-3201_Quiz3_Digital_Design_Lab_Mauricio/FSM.sv|
+!i113 1
+R7
+R8
+R9
+n@f@s@m
+vlogic_module
+R1
+R10
+!i10b 1
+!s100 0fdS7P?L>G[A=oW85`c<33
+R3
+I[KnTgbS4QKO];;_l3:92V1
+R4
+S1
+R0
+w1713714782
+8C:/Users/mau14/OneDrive/Escritorio/TDD Repositorio/Quiz3/CE-3201_Quiz3_Digital_Design_Lab_Mauricio/logic_module.sv
+FC:/Users/mau14/OneDrive/Escritorio/TDD Repositorio/Quiz3/CE-3201_Quiz3_Digital_Design_Lab_Mauricio/logic_module.sv
+!i122 3
+L0 1 80
+R5
+r1
+!s85 0
+31
+Z11 !s108 1713716313.000000
+!s107 C:/Users/mau14/OneDrive/Escritorio/TDD Repositorio/Quiz3/CE-3201_Quiz3_Digital_Design_Lab_Mauricio/logic_module.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/mau14/OneDrive/Escritorio/TDD Repositorio/Quiz3/CE-3201_Quiz3_Digital_Design_Lab_Mauricio|C:/Users/mau14/OneDrive/Escritorio/TDD Repositorio/Quiz3/CE-3201_Quiz3_Digital_Design_Lab_Mauricio/logic_module.sv|
+!i113 1
+R7
+R8
+R9
+vlogic_module_tb
+R1
+R10
+!i10b 1
+!s100 n_3[PLPfgZWId=6EYH<d90
+R3
+I;_>DkO075CT=R=_j4G?l91
+R4
+S1
+R0
+w1713714456
+8C:/Users/mau14/OneDrive/Escritorio/TDD Repositorio/Quiz3/CE-3201_Quiz3_Digital_Design_Lab_Mauricio/logic_module_tb.sv
+FC:/Users/mau14/OneDrive/Escritorio/TDD Repositorio/Quiz3/CE-3201_Quiz3_Digital_Design_Lab_Mauricio/logic_module_tb.sv
+!i122 4
+L0 1 108
+R5
+r1
+!s85 0
+31
+R11
+!s107 C:/Users/mau14/OneDrive/Escritorio/TDD Repositorio/Quiz3/CE-3201_Quiz3_Digital_Design_Lab_Mauricio/logic_module_tb.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/mau14/OneDrive/Escritorio/TDD Repositorio/Quiz3/CE-3201_Quiz3_Digital_Design_Lab_Mauricio|C:/Users/mau14/OneDrive/Escritorio/TDD Repositorio/Quiz3/CE-3201_Quiz3_Digital_Design_Lab_Mauricio/logic_module_tb.sv|
+!i113 1
+R7
+R8
+R9
+vtop_module
+R1
+R2
+!i10b 1
+!s100 b<[68?8ZLRcU4Z2YzRe:63
+R3
+If57Xj94F[^nNmE[4PDZd62
+R4
+S1
+R0
+w1713714792
+8C:/Users/mau14/OneDrive/Escritorio/TDD Repositorio/Quiz3/CE-3201_Quiz3_Digital_Design_Lab_Mauricio/top_module.sv
+FC:/Users/mau14/OneDrive/Escritorio/TDD Repositorio/Quiz3/CE-3201_Quiz3_Digital_Design_Lab_Mauricio/top_module.sv
+!i122 1
+L0 1 52
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/Users/mau14/OneDrive/Escritorio/TDD Repositorio/Quiz3/CE-3201_Quiz3_Digital_Design_Lab_Mauricio/top_module.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/mau14/OneDrive/Escritorio/TDD Repositorio/Quiz3/CE-3201_Quiz3_Digital_Design_Lab_Mauricio|C:/Users/mau14/OneDrive/Escritorio/TDD Repositorio/Quiz3/CE-3201_Quiz3_Digital_Design_Lab_Mauricio/top_module.sv|
+!i113 1
+R7
+R8
+R9
